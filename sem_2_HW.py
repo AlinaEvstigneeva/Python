@@ -4,25 +4,27 @@
 # повернуты вверх одной и той же стороной. Выведите минимальное
 # количество монет, которые нужно перевернуть.
 
-# money = int(input("Введите количество монет: "))
+# n = int(input("Введите количество монет: "))
+# from random import randint                    #функция randint() всегда импортируется из random
+# tails = 0
+# heads = 0
 
-# from random import randint      #функция randint() всегда импортируется из random
-
-# count = 0
-# second_count = 0
-# for i in range (1, money + 1):
-#     coin_series = randint(0, 1)     # randint(0,1) - генерирует цифры в диапозоне от 0 до 1, те только единицы и нули
-#     print(coin_series)
+# for i in range(n):
+#     coin_series = randint(0, 1)
+#     print(coin_series, end=' ')
 #     if coin_series == 0:
-#         count +=1
+#         tails +=1
 #     else:
-#         second_count += 1
-    
-    
-# if count < second_count:
-#     print(f"Количество монет, которое необходимо перевернуть равно: {count}")
+#         heads += 1
+
+# print()
+# if tails < heads:
+#     print(tails)
 # else:
-#     print(f"Количество монет, которое необходимо перевернуть равно: {second_count}")
+#     print(heads)
+
+
+
 
 
 
